@@ -1,5 +1,3 @@
-package cse360assign3;
-
 //Kaodilichi Nwuda
 //Wednesday Session
 //Class ID: 514
@@ -17,19 +15,19 @@ public class Calculator {
 	}
 	
 	public void add (int value) {
-		
+		total += value;
 	}
 	
 	public void subtract (int value) {
-		
+		total -= value;
 	}
 	
 	public void multiply (int value) {
-		
+		total -= value;
 	}
 	
 	public void divide (int value) {
-		
+		total /= value;
 	}
 	
 	public String getHistory () {
