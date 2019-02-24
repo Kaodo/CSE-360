@@ -1,3 +1,5 @@
+
+
 //Kaodilichi Nwuda
 //Wednesday Session
 //Class ID: 514
@@ -31,6 +33,10 @@ public class Calculator {
 	}
 	
 	public String getHistory () {
-		return "";
+		String add = Calculator.add(4);
+		String subtract = Calculator.subtract(2);
+		String multiply = Calculator.multiply(20);
+		String divide = Calculator.divide(2);
+		return "0 + add - subtract * multiply /divide";
 	}
 }
